@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Environmental Education for Kids</title>
+    <title>EE4K</title>
     <link rel="stylesheet" type="text/css" href="./styles3.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="./assets/logo/favicon.png"/>
 </head>
 <body>
     <header>
-        <h1>Environmental Education for Kids</h1>
+        <img src="./assets/logo/hd.png" alt="Environmental Education for Kids Logo" class="logo">
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Activities</a></li>
-                <li><a href="#">Resources</a></li>
+                <li><a href="#"><img src="./assets/home-button.png" alt="Home"></a></li>
+                <li><a href="#"><img src="./assets/about.png" alt="About"></a></li>
+                <li><a href="#"><img src="./assets/joystick.png" alt="Games"></a></li>
+                <li><a href="#"><img src="./assets/work-time.png" alt="Activities"></a></li>
+                <li><a href="#"><img src="./assets/natural-resources.png" alt="Resources"></a></li>
             </ul>
         </nav>
     </header>
+    
     
     <section id="banner">
         <h2>Learn and Explore the Environment in a Fun Way</h2>
@@ -33,54 +36,29 @@
     <section id="games">
         <h2>Featured Games</h2>
 
-        <div class="flex-container">
-    
+        <div class="game">
+           <a href="https://seriousgeogames.itch.io/crabbys-reef"><img  src="./assets/Crabbys-reef-1.png" alt="Game 1"></a> 
+            <h3>Crabby’s Reef</h3>
+            <p>Guide Crabby through the maze-like reef, searching for food and avoiding the octopuses that want to eat Crabby. <br> Crabby’s Reef uses a classic arcade game style to explore the impacts ocean acidification has on marine animals.</p>
+        </div>
+        
+        <div class="game">
+            <img src="./assets/40261.jpg" alt="Game 2">
+            <h3>Trash Can Relay</h3>
+            <p>
+                <ol>
+                    <li>Divide the kids into two teams.</li>
+                    <li>Arrange the five trash cans to create an obstacle course. The first player of each team has to run the course, weaving in and out the garbage cans.</li>
+                    <li>When the player reaches the last can, he has to turn around and twist back to the team.</li>
+                </ol></p>
+        </div>
 
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/Crabbys-reef-1.png" class="card-img-top" alt="go goals image">
-                <div class="card-body">
-                  <h5 class="card-title" style="color: #45a049;">Crabby’s Reef</h5>
-                  <p class="card-text">
-                    Guide Crabby through the maze-like reef, searching for food and avoiding the octopuses that want to eat Crabby. <br> Crabby’s Reef uses a classic arcade game style to explore the impacts ocean acidification has on marine animals.
-                  </p>
-                  <a href="https://seriousgeogames.itch.io/crabbys-reef" class="btn btn-primary" style="background-color: #45a049;">Play Now</a>
-                </div>
-            </div>
 
-
-            <div class="card" style="width: 18rem;">
-              <img src="./assets/40261.jpg" class="card-img-top" alt="trash image">
-              <div class="card-body">
-                <h5 class="card-title" style="color: #45a049;">Trash Can Relay</h5>
-                <p class="card-text">
-                    <h6>You will need</h6>
-                    <ul>
-                        <li>Five trash cans</li>
-                    </ul>
-                    <h6>How to</h6>
-                    <ol>
-                        <li>Divide the kids into two teams.</li>
-                        <li>Arrange the five trash cans to create an obstacle course. The first player of each team has to run the course, weaving in and out the garbage cans.</li>
-                        <li>When the player reaches the last can, he has to turn around and twist back to the team.</li>
-                    </ol>
-                </p>
-                <a href="#" class="btn btn-primary" style="background-color: #45a049;">Play Now</a>
-              </div>
-            </div>
-          
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/go-goals-board-game-img.jpg" class="card-img-top" alt="go goals image">
-                <div class="card-body">
-                  <h5 class="card-title" style="color: #45a049;">Go Goals</h5>
-                  <p class="card-text">
-                    The game comes as a build-it-yourself package. Download the game, print the various elements, including the game board, question cards, pawns and dice. Cut-up and build your own personalised game (get creative with your character pawns and colour in those dice). Within a few minutes, the game can begin.
-                  </p>
-                  <a href="https://go-goals.org/" class="btn btn-primary" style="background-color: #45a049;">Play Now</a>
-                </div>
-              </div>
-          </div>
-
-      </div>
+        <div class="game">
+          <a href="https://go-goals.org/"><img src="./assets/go-goals-board-game-img.jpg" alt="Game 1"></a> 
+            <h3>Go Goals</h3>
+            <p>The game comes as a build-it-yourself package. Download the game, print the various elements, including the game board, question cards, pawns and dice. Cut-up and build your own personalised game (get creative with your character pawns and colour in those dice). Within a few minutes, the game can begin.</p>
+        </div>
     </section>
     <section id="content">
         <h3>Why Learn About the Environment?</h3>
@@ -92,23 +70,17 @@
             <li><strong>Activities:</strong> Participate in hands-on activities that inspire creativity and promote eco-friendly practices.</li>
             <li><strong>Resources:</strong> Access a wide range of educational materials, including articles, videos, and downloadable guides.</li>
         </ul>
-    
-        <h3>Our Mission</h3>
-        <p>At the Environmental Education Portal, our mission is to empower children with knowledge and skills to make a positive impact on the environment. We believe that by educating the younger generation, we can create a more sustainable future for all.</p>
-    
-        <h3>Join Us on the Journey</h3>
-        <p>We invite you to join us on this exciting journey of environmental education. Together, we can inspire children to become environmentally conscious individuals and make a difference in the world.</p>
     </section>
     <section id="activities">
         <h2>Interactive Activities</h2>
-        <div class="activity">
+        <div class="activity1">
             <img src="./assets/earth.png" alt="Activity 1">
             <h3>Build Your Own Birdhouse</h3>
             <p>Create a birdhouse using recycled materials and attract birds to your backyard.</p>
             <a href="#" class="learn-more">Learn More</a>
         </div>
         
-        <div class="activity">
+        <div class="activity1">
             <img src="./assets/scaventure.webp" alt="Activity 2">
             <h3>Nature Scavenger Hunt</h3>
             <p>Go on a scavenger hunt outdoors and discover the wonders of nature.</p>
@@ -116,7 +88,7 @@
         </div>
 
 
-        <div class="activity">
+        <div class="activity1">
             <img src="./assets/crafts.webp" alt="Recycling Craft">
             <h3>Recycling Craft</h3>
             <p>Create a fun craft using recycled materials. Reduce waste and unleash your creativity at the same time.</p>
@@ -124,12 +96,20 @@
         </div>
 
 
-        <div class="activity">
+        <div class="activity1">
             <img src="./assets/ocean.jpg" alt="Ocean Cleanup">
             <h3>Ocean Cleanup</h3>
             <p>Join the mission to protect our oceans. Learn about marine pollution and participate in a virtual ocean cleanup activity.</p>
             <a href="#" class="learn-more">Learn More</a>
         </div>
+    </section>
+
+    <section id="content">
+        <h3>Our Mission</h3>
+        <p>At the Environmental Education Portal, our mission is to empower children with knowledge and skills to make a positive impact on the environment. We believe that by educating the younger generation, we can create a more sustainable future for all.</p>
+    
+        <h3>Join Us on the Journey</h3>
+        <p>We invite you to join us on this exciting journey of environmental education. Together, we can inspire children to become environmentally conscious individuals and make a difference in the world.</p>
     </section>
     
     <footer>
